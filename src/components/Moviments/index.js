@@ -36,8 +36,8 @@ const styles = StyleSheet.create({
     content:{
         flexDirection:'row',
         justifyContent:'space-between',
-        marginTop:2,
-        marginBottom:7,
+        marginTop:5,
+        marginBottom:10,
     },
     date:{
         color:'#DADADA',
@@ -62,7 +62,6 @@ const styles = StyleSheet.create({
     skeleton:{
         marginTop:6,
         width:80,
-        heigth:10,
         backgroundColor:'#DADADA',
         borderRadius:8
     }

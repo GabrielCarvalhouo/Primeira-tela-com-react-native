@@ -3,6 +3,7 @@ import Header from '../../components/Header'
 import Balance from '../../components/Balance';
 import Moviments from '../../components/Moviments';
 import Actions from '../../components/Actions';
+import Announcement from '../../components/Announcement'
 
 const list = [
   {
@@ -45,6 +46,7 @@ export default function App() {
       showsVerticallIndicator={false}
       renderItem={({item}) => <Moviments data={item}/>}/>
       
+      <Announcement/>
     </View>
   );
 }
